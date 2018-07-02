@@ -11,6 +11,7 @@ import (
 type CLI struct{}
 
 func (cli *CLI) printUsage() {
+
 	fmt.Println("Usage:")
 	fmt.Println("  getbalance -address ADDRESS - Get balance of ADDRESS")
 	fmt.Println("  createblockchain -address ADDRESS - Create a blockchain and send genesis block reward to ADDRESS")
